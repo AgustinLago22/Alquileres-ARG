@@ -35,6 +35,8 @@ def scrapear_paginas_argenprop(base_url, ciudad, max_registros):
 
     return registros[:max_registros]
 
+
+
 def scrapear_argenprop(url,ciudad,dolarhoy):
     departamentos = []
     try:
@@ -69,6 +71,8 @@ def scrapear_argenprop(url,ciudad,dolarhoy):
     return departamentos
 
 
+
+
 def obtener_cotizacion_dolar():
     url= "https://api.bluelytics.com.ar/v2/latest"  # Api para obtener cotizacion dolar
     try:
@@ -79,6 +83,8 @@ def obtener_cotizacion_dolar():
     except Exception as e:
         print("Error al obtener cotizacion", e)
         return None     
+
+
 
 def obtener_precio(depto, dolarhoy):
     precio_tag = depto.find('p', {'class': 'card__price'})
@@ -124,6 +130,8 @@ def obtener_precio(depto, dolarhoy):
 def obtener_direccion(depto):
     direccion_tag = depto.find('p', {'class': 'card__address'})
     return direccion_tag.text.strip() if direccion_tag else "No disponible"
+
+
 
 
 def obtener_detalles(depto):
