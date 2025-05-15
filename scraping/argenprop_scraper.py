@@ -1,53 +1,123 @@
 import requests
 from bs4 import BeautifulSoup
 import re  # Importamos el módulo de expresiones regulares
-
-def scrapear_paginas_argenprop(base_url,ciudad, max_registros=20):
+import requests
+def scrapear_paginas_argenprop(base_url, ciudad, max_registros):
     registros = []
     pagina = 1
+    datos_anteriores = None
+    dolarhoy = obtener_cotizacion_dolar()
 
-    while len(registros) < max_registros: # Nos va a permitir poner un tope de registros
-        url = f"{base_url}-pagina-{pagina}"
+    while len(registros) < max_registros:
+        if pagina == 1:
+            url = base_url
+        else:
+            url = f"{base_url}?pagina-{pagina}" # Cuando se pagina la pagina cambia a este formato (https://www.argenprop.com/departamentos/alquiler/resistencia) base_url?pagina-2
+
         print(f"Scrapeando página {pagina}: {url}")
-        datos_pagina = scrapear_argenprop(url,ciudad)
+        datos_pagina = scrapear_argenprop(url, ciudad,dolarhoy)
 
-        if not datos_pagina:  # No pasa nada si no llega a 100, lo importante es tener datos
+        if not datos_pagina:
             print("No se encontraron más resultados.")
             break
 
+        # Comparamos solo las direcciones para detectar repetición
+        direcciones_actual = [d['direccion'] for d in datos_pagina]
+        direcciones_anteriores = [d['direccion'] for d in datos_anteriores] if datos_anteriores else []
+
+        if datos_anteriores and direcciones_actual == direcciones_anteriores:
+            print("Página repetida detectada. Fin de la paginación.")
+            break
+
         registros.extend(datos_pagina)
+        datos_anteriores = datos_pagina
         pagina += 1
 
     return registros[:max_registros]
 
+def scrapear_argenprop(url,ciudad,dolarhoy):
+    departamentos = []
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.content, 'html.parser')
+        deptos = soup.find_all('div', class_='card__details-box')
 
-import re
+        for depto in deptos:
+            precio, expensas = obtener_precio(depto,dolarhoy)  # Obtenemos el precio y expensas
+            direccion = obtener_direccion(depto)
+            detalles = obtener_detalles(depto)
 
-def obtener_precio(depto):
+            depto_info = {
+                'precio': precio,
+                'expensas': expensas, 
+                'direccion': direccion,
+                'detalles': detalles,  # No es necesario, solo es para testeo en main y ver que obtiene
+                'superficie_cubierta': detalles.get('superficie_cubierta', 'No disponible'),
+                'dormitorios': detalles.get('dormitorios', 'No disponible'),
+                'banos': detalles.get('banos', 'No disponible'),
+                'antiguedad': detalles.get('antiguedad', 'No disponible'),
+                'ambientes': detalles.get('ambientes', 'No disponible'),
+                'fuente': 'argenprop',
+                'ciudad': ciudad
+            }
+            departamentos.append(depto_info)
+
+    except requests.exceptions.RequestException as e:
+        print(f"Error al obtener la página: {e}")
+
+    return departamentos
+
+
+def obtener_cotizacion_dolar():
+    url= "https://api.bluelytics.com.ar/v2/latest"  # Api para obtener cotizacion dolar
+    try:
+        response= requests.get(url)
+        data = response.json()
+        oficial= data['oficial']['value_sell'] #Como se elimino el cepo, tomamos el dolar oficial.
+        return oficial
+    except Exception as e:
+        print("Error al obtener cotizacion", e)
+        return None     
+
+def obtener_precio(depto, dolarhoy):
     precio_tag = depto.find('p', {'class': 'card__price'})
-    if precio_tag:
-        precio = precio_tag.text.strip()
-        if "Consultar precio" in precio:
-            return "No disponible", "No disponible"  # Si no hay precio disponible
+    if not precio_tag:
+        return "No disponible", "No disponible"
 
-        # Verificamos si existe un "+" en el precio para dividirlo
-        if "+" in precio:
-            # Dividimos en dos partes: precio y expensas
-            partes = precio.split(" + ")
-            precio_alquiler = partes[0].strip()  # El primer segmento es el precio
-            expensas = partes[1].replace("expensas", "").strip()  # El segundo es las expensas
+    texto = " ".join(precio_tag.text.strip().split())
 
-            # Limpiamos el formato, eliminando los puntos de miles y convirtiendo a número
-            precio_alquiler = int(precio_alquiler.replace('.', '').replace('$', '').strip())
-            expensas = int(expensas.replace('.', '').replace('$', '').strip()) if expensas else "No disponible"
-        else:
-            # Si no hay "+" en el precio, solo devolvemos el precio de alquiler
-            precio_alquiler = int(precio.replace('.', '').replace('$', '').strip())
-            expensas = "No disponible"  # Si no hay expensas, marcamos como No disponible
+    if "Consultar precio" in texto:
+        return "No disponible", "No disponible"
 
-        return precio_alquiler, expensas
+    # Determinar si es en USD
+    es_usd = "USD" in texto
+    texto = texto.replace("USD", "").replace("$", "").strip()
 
-    return "No disponible", "No disponible"  # Si no encontramos el precio, devolvemos "No disponible"
+    # Separar expensas si hay
+    if "+" in texto:
+        partes = texto.split("+")
+        alquiler_str = partes[0].strip()
+        expensas_str = partes[1].replace("expensas", "").replace("$", "").strip()
+    else:
+        alquiler_str = texto
+        expensas_str = None
+
+    try:
+        precio_alquiler = int(alquiler_str.replace(".", ""))
+    except ValueError:
+        precio_alquiler = "No disponible"
+
+    # Si el precio era en USD, convertir
+    if es_usd:
+        precio_alquiler = round(precio_alquiler * dolarhoy)
+
+    try:
+        expensas = int(expensas_str.replace(".", "")) if expensas_str else "No disponible"
+    except ValueError:
+        expensas = "No disponible"
+
+    return precio_alquiler, expensas
 
 
 
@@ -78,36 +148,3 @@ def obtener_detalles(depto):
                 detalles['ambientes'] = valor
     return detalles
 
-
-def scrapear_argenprop(url,ciudad):
-    departamentos = []
-    try:
-        response = requests.get(url)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.content, 'html.parser')
-        deptos = soup.find_all('div', class_='card__details-box')
-
-        for depto in deptos:
-            precio, expensas = obtener_precio(depto)  # Obtenemos el precio y expensas
-            direccion = obtener_direccion(depto)
-            detalles = obtener_detalles(depto)
-
-            depto_info = {
-                'precio': precio,
-                'expensas': expensas, 
-                'direccion': direccion,
-                'detalles': detalles,  # No es necesario, solo es para testeo en main y ver que obtiene
-                'superficie_cubierta': detalles.get('superficie_cubierta', 'No disponible'),
-                'dormitorios': detalles.get('dormitorios', 'No disponible'),
-                'banos': detalles.get('banos', 'No disponible'),
-                'antiguedad': detalles.get('antiguedad', 'No disponible'),
-                'ambientes': detalles.get('ambientes', 'No disponible'),
-                'fuente': 'argenprop',
-                'ciudad': ciudad
-            }
-            departamentos.append(depto_info)
-
-    except requests.exceptions.RequestException as e:
-        print(f"Error al obtener la página: {e}")
-
-    return departamentos
