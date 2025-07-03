@@ -134,25 +134,32 @@ def obtener_direccion(depto):
 
 
 
+
 def obtener_detalles(depto):
     detalles = {}
-    detalle_tags = depto.find_all('li')
-    for detalle in detalle_tags:
-        icono = detalle.find('i')
-        if icono:
-            icono_class = icono.get('class', [])
-            span = detalle.find('span')
-            valor = span.text.strip() if span else "No disponible"
+    features_box = depto.find('ul', class_='card__main-features')
+    if not features_box:
+        return detalles
 
-            if 'icono-superficie_cubierta' in icono_class:
-                detalles['superficie_cubierta'] = valor
-            elif 'icono-cantidad_dormitorios' in icono_class:
-                detalles['dormitorios'] = valor
-            elif 'icono-antiguedad' in icono_class:
-                detalles['antiguedad'] = valor
-            elif 'icono-cantidad_banos' in icono_class:
-                detalles['banos'] = valor
-            elif 'icono-cantidad_ambientes' in icono_class:
-                detalles['ambientes'] = valor
+    detalle_tags = features_box.find_all('li')
+    
+    for li in detalle_tags:
+        span = li.find('span')
+        if not span:
+            continue
+        texto = span.text.lower().strip()
+        
+        if 'm²' in texto:
+            detalles['superficie_cubierta'] = texto
+        elif 'dorm' in texto:
+            detalles['dormitorios'] = texto
+        elif 'baño' in texto or 'baños' in texto:
+            detalles['banos'] = texto
+        elif 'ambiente' in texto:
+            detalles['ambientes'] = texto
+        elif 'año' in texto or 'estrenar' in texto:
+            detalles['antiguedad'] = texto
+
     return detalles
+
 
