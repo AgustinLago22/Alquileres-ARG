@@ -248,10 +248,8 @@ def validar_datos(df):
     print("\nValidación finalizada.\n")
 
 def guardar_datos_limpios(df,archivo):
-    nombre_base = os.path.basename(archivo)
-    ruta_salida = os.path.join('datasets/clean', f'clean_{nombre_base}')
+    ruta_salida = os.path.join('datasets/clean','alquileres_clean.csv')
     df.to_csv(ruta_salida, index=False)
-    print(f"Archivo limpio guardado en: {ruta_salida}")
     
 
 def cleaner():

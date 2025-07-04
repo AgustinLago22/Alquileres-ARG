@@ -1,0 +1,562 @@
+precio,expensas,direccion,superficie,dormitorios,banos,antiguedad,fuente,ciudad,superficie_imputada,superficie_rango,banos_imputado
+450000.0,70000.0,"61 700, Piso 2",50,1,1,0,argenprop,Buenos Aires,False,"(42.0, 53.5]",True
+550000.0,70000.0,"37 1500, Piso 1",65,2,1,8,argenprop,Buenos Aires,False,"(53.5, 70.0]",True
+350000.0,,49 400,35,,1,20,argenprop,Buenos Aires,False,"(23.999, 42.0]",False
+420000.0,50000.0,ALQUILER DEPARTAMENTO 1 DORMITORIO ZONA PARQUE CASTELLI,42,1,1,20,argenprop,Buenos Aires,False,"(23.999, 42.0]",True
+420000.0,50000.0,ZONA FACULTADES DIAG 113 Y 64,45,1,1,15,argenprop,Buenos Aires,False,"(42.0, 53.5]",True
+320000.0,52000.0,"66 100, Piso 2",30,1,1,20,argenprop,Buenos Aires,False,"(23.999, 42.0]",True
+490000.0,63000.0,"24 1300, Piso 1",45,1,1,15,argenprop,Buenos Aires,False,"(42.0, 53.5]",True
+430000.0,,"59 300, Piso 5",,1,,,argenprop,Buenos Aires,False,,False
+480000.0,32000.0,"45 entre 17 y 18 , Piso 1",47,1,1,10,argenprop,Buenos Aires,True,"(42.0, 53.5]",False
+800000.0,75000.0,7 esquina 51,80,3,1,80,argenprop,Buenos Aires,True,"(70.0, 300.0]",False
+430000.0,45000.0,62 al 800,45,1,1,4,argenprop,Buenos Aires,False,"(42.0, 53.5]",True
+450000.0,,56  e 13 y 14 900,47,1,1,,argenprop,Buenos Aires,True,"(42.0, 53.5]",False
+450000.0,,21 e/ 47 y 48 700,47,1,1,30,argenprop,Buenos Aires,True,"(42.0, 53.5]",False
+400000.0,,23 e/44 y 45,47,1,1,18,argenprop,Buenos Aires,True,"(42.0, 53.5]",False
+583000.0,70000.0,26 e/ 38 y 39,42,1,1,8,argenprop,Buenos Aires,False,"(23.999, 42.0]",True
+550000.0,,"1 entre 68y69 1700, Piso PB",,2,,50,argenprop,Buenos Aires,False,,False
+700000.0,75000.0,46 e/ 10 Y 11,58,2,1,18,argenprop,Buenos Aires,False,"(53.5, 70.0]",True
+430000.0,100000.0,39 e/ 11 y 12,40,1,1,5,argenprop,Buenos Aires,False,"(23.999, 42.0]",True
+520000.0,70000.0,Calle 56 3 y 4,60,1,1,12,argenprop,Buenos Aires,False,"(53.5, 70.0]",True
+380000.0,,"49 entre 136 y 137 2000, Piso 1",47,1,1,24,argenprop,Buenos Aires,True,"(42.0, 53.5]",False
+600000.0,,9 e/ 47 y 48,65,2,1,0,argenprop,Buenos Aires,False,"(53.5, 70.0]",True
+380000.0,20000.0,"Calle 68 500, Piso 2",,1,,,argenprop,Buenos Aires,False,,False
+350000.0,,Calle 69 300,45,1,1,0,argenprop,Buenos Aires,False,"(42.0, 53.5]",True
+530000.0,,19 y 71,56,2,1,,argenprop,Buenos Aires,True,"(53.5, 70.0]",False
+580000.0,,Calle 69 300,70,2,1,0,argenprop,Buenos Aires,False,"(53.5, 70.0]",True
+320000.0,45000.0,4 al 1100,27,,1,40,argenprop,Buenos Aires,False,"(23.999, 42.0]",False
+420000.0,45000.0,57 entre 17 y 18,45,1,1,0,argenprop,Buenos Aires,False,"(42.0, 53.5]",True
+400000.0,,Calle 41 entre Av. 19 y Calle,56,2,1,,argenprop,Buenos Aires,True,"(53.5, 70.0]",False
+430000.0,85000.0,"Calle 55 400, Piso 14",41,1,1,40,argenprop,Buenos Aires,False,"(23.999, 42.0]",True
+570000.0,,"19 300, Piso 8",38,,,,argenprop,Buenos Aires,False,"(23.999, 42.0]",False
+480000.0,,"CALLE 6 35 Y 36 200, Piso P.B",55,2,1,40,argenprop,Buenos Aires,False,"(53.5, 70.0]",True
+370000.0,,Calle 14 entre 45 y 46,56,2,1,,argenprop,Buenos Aires,True,"(53.5, 70.0]",False
+420000.0,65000.0,"61 500, Piso 1",47,1,1,12,argenprop,Buenos Aires,True,"(42.0, 53.5]",False
+380000.0,80000.0,48 600,47,1,1,30,argenprop,Buenos Aires,True,"(42.0, 53.5]",False
+330000.0,,"Calle 26 1200, Piso 1",47,1,1,,argenprop,Buenos Aires,True,"(42.0, 53.5]",False
+450000.0,,Calle 45 e/ 22 y 23,47,1,1,25,argenprop,Buenos Aires,True,"(42.0, 53.5]",False
+490000.0,70000.0,"5 Y 57 , Piso 1",56,2,1,30,argenprop,Buenos Aires,True,"(53.5, 70.0]",False
+370000.0,43000.0,14 e/ 57 y 58,35,,1,0,argenprop,Buenos Aires,False,"(23.999, 42.0]",False
+340500.0,100000.0,22 e/ 44 y 45,30,,1,5,argenprop,Buenos Aires,False,"(23.999, 42.0]",False
+520000.0,,Plaza Italia y Diagonal 74,67,1,1,20,argenprop,Buenos Aires,False,"(53.5, 70.0]",True
+650000.0,60000.0,Plaza Matheu 100,75,2,2,5,argenprop,Buenos Aires,False,"(70.0, 300.0]",True
+450000.0,65000.0,54 800,56,2,1,30,argenprop,Buenos Aires,True,"(53.5, 70.0]",False
+750000.0,130000.0,Roque Saenz PeÑa 200,56,2,1,,argenprop,Chaco,True,"(53.5, 70.0]",False
+430000.0,,AVENIDA HERNADARIAS 1900,,2,,,argenprop,Chaco,False,,False
+320000.0,,2 DE FEBRERO DE 1982 100,80,3,1,,argenprop,Chaco,True,"(70.0, 300.0]",False
+250000.0,40000.0,"Juan Domingo Perón 1500, Piso 2",47,1,1,,argenprop,Chaco,True,"(42.0, 53.5]",False
+650000.0,,"Necochea 200, Piso 1",80,2,2,20,argenprop,Chaco,False,"(70.0, 300.0]",True
+420000.0,80000.0,"Av. Piacentini 1100, Piso 2",80,3,2,17,argenprop,Chaco,False,"(70.0, 300.0]",True
+260000.0,18000.0,Seitor 1600,30,1,1,,argenprop,Chaco,False,"(23.999, 42.0]",False
+700000.0,,"Mitre 700, Piso 1",101,3,2,,argenprop,Chaco,True,"(70.0, 300.0]",False
+300000.0,30000.0,"Ameghino 2100, Piso 1",30,1,1,,argenprop,Chaco,False,"(23.999, 42.0]",False
+650000.0,250000.0,"SALTA 300, Piso 4",47,1,1,,argenprop,Chaco,True,"(42.0, 53.5]",False
+600000.0,50000.0,"MONTEAGUDO 1000, Piso PB",65,3,2,20,argenprop,Chaco,False,"(53.5, 70.0]",True
+350000.0,,Pasaje Lopez Piacentini 1200,56,2,1,,argenprop,Chaco,True,"(53.5, 70.0]",False
+700000.0,130000.0,"LA RIOJA 100, Piso 10",101,3,2,,argenprop,Chaco,True,"(70.0, 300.0]",False
+260000.0,50000.0,"NECOCHEA 1200, Piso 3",35,1,1,10,argenprop,Chaco,False,"(23.999, 42.0]",True
+850000.0,150000.0,"Mendoza 400, Piso 9",110,3,2,30,argenprop,Chaco,False,"(70.0, 300.0]",True
+430000.0,,Av Piacentini 1100,80,3,1,,argenprop,Chaco,False,"(70.0, 300.0]",False
+350000.0,55000.0,Roldan  al 400,36,1,1,6,argenprop,Chaco,False,"(23.999, 42.0]",True
+420000.0,,"DONOVAN 1200, Piso P.B.",70,2,1,,argenprop,Chaco,False,"(53.5, 70.0]",False
+500000.0,,"JULIO A ROCA 700, Piso P.B.",55,2,2,,argenprop,Chaco,False,"(53.5, 70.0]",False
+400000.0,60000.0,"ILLIA ARTURO 600, Piso 1",70,2,1,35,argenprop,Chaco,False,"(53.5, 70.0]",True
+320000.0,5000.0,"JUSTO JUAN B. 1600, Piso 1",40,1,1,,argenprop,Chaco,False,"(23.999, 42.0]",False
+250000.0,30000.0,"PADRE CERQUEIRA 600, Piso 1",40,1,1,,argenprop,Chaco,False,"(23.999, 42.0]",False
+320000.0,50000.0,"FRANKLIN 700, Piso 1",30,1,1,15,argenprop,Chaco,False,"(23.999, 42.0]",True
+320000.0,70000.0,"SAN LORENZO 1300, Piso 2",40,1,1,,argenprop,Chaco,False,"(23.999, 42.0]",False
+450000.0,170000.0,"GARCIA MEROU 200, Piso 1",80,3,2,,argenprop,Chaco,False,"(70.0, 300.0]",True
+450000.0,70000.0,"LOPEZ PIACENTINI 1100, Piso 1",55,2,1,,argenprop,Chaco,False,"(53.5, 70.0]",False
+350000.0,30000.0,"LAS HERAS 300, Piso 2",40,1,1,,argenprop,Chaco,False,"(23.999, 42.0]",False
+250000.0,,Jose Maria Paz 900,,1,,,argenprop,Chaco,False,,False
+300000.0,,Barrio Guiraldes,,2,,,argenprop,Chaco,False,,False
+380000.0,,Fray Capelli 100,47,1,1,,argenprop,Chaco,True,"(42.0, 53.5]",False
+580000.0,50000.0,"PUEYRREDON 400, Piso 3",70,3,2,,argenprop,Chaco,False,"(53.5, 70.0]",False
+420000.0,30000.0,"AV. MORENO 200, Piso 1",45,1,1,,argenprop,Chaco,False,"(42.0, 53.5]",False
+580000.0,160000.0,"Pueyrredón 400, Piso 2",60,2,1,,argenprop,Chaco,False,"(53.5, 70.0]",False
+420000.0,40000.0,"PADRE CERQUEIRA 600, Piso P.B.",55,2,1,,argenprop,Chaco,False,"(53.5, 70.0]",True
+250000.0,27000.0,"CERQUEIRA P. 600, Piso 1",38,1,1,,argenprop,Chaco,False,"(23.999, 42.0]",False
+450000.0,30000.0,"MONTEAGUDO 1300, Piso 2",40,1,1,,argenprop,Chaco,False,"(23.999, 42.0]",False
+420000.0,30000.0,"MONTEAGUDO 1300, Piso 2",40,1,1,,argenprop,Chaco,False,"(23.999, 42.0]",False
+780000.0,70000.0,"Concepción del Bermejo 100, Piso 2",75,2,2,,argenprop,Chaco,False,"(70.0, 300.0]",False
+700000.0,,Mitre 700,101,3,2,,argenprop,Chaco,True,"(70.0, 300.0]",False
+380000.0,27200.0,San Lorenzo al 1400,40,1,1,0,argenprop,Chaco,False,"(23.999, 42.0]",True
+280000.0,,"Donovan 600, Piso 1",47,1,1,,argenprop,Chaco,True,"(42.0, 53.5]",False
+380000.0,45000.0,OBISPO SALGUERO 100,47,1,1,,argenprop,Cordoba,True,"(42.0, 53.5]",False
+550000.0,105000.0,"Independencia 300, Piso 7",45,1,1,10,argenprop,Cordoba,False,"(42.0, 53.5]",True
+450000.0,70000.0,"Domingo F Sarmiento 1300, Piso 2",,1,,3,argenprop,Cordoba,False,,False
+500000.0,100000.0,"Avenida Marcelo T. De Alvear 900, Piso PB",47,1,1,,argenprop,Cordoba,True,"(42.0, 53.5]",False
+350000.0,,Fructuoso Rivera 1000,40,1,1,,argenprop,Cordoba,False,"(23.999, 42.0]",True
+600000.0,88000.0,"Av Duarte Quiros 4300, Piso PB",90,3,2,40,argenprop,Cordoba,False,"(70.0, 300.0]",True
+450000.0,130000.0,Av. Sagrada familia 400,40,1,1,,argenprop,Cordoba,False,"(23.999, 42.0]",True
+400000.0,90000.0,"Bv Illia 500, Piso 1",40,1,1,15,argenprop,Cordoba,False,"(23.999, 42.0]",True
+520000.0,78000.0,"General Paz 1900, Piso 2",47,1,1,,argenprop,Cordoba,True,"(42.0, 53.5]",False
+530000.0,60000.0,"San Jeronimo 300, Piso 7",40,2,1,,argenprop,Cordoba,False,"(23.999, 42.0]",False
+750000.0,150000.0,"San Lorenzo 100, Piso 8",85,2,2,15,argenprop,Cordoba,False,"(70.0, 300.0]",True
+330000.0,55000.0,"Vieytes 200, Piso 1",45,1,1,23,argenprop,Cordoba,False,"(42.0, 53.5]",True
+450000.0,50000.0,"Independencia 1400, Piso 2",48,1,1,22,argenprop,Cordoba,False,"(42.0, 53.5]",True
+300000.0,,"Avenida Leandro N. Alem 900, Piso PB",30,,,,argenprop,Cordoba,False,"(23.999, 42.0]",False
+500000.0,115000.0,"HILARIO FERNANDEZ 100, Piso 2",47,1,1,,argenprop,Cordoba,True,"(42.0, 53.5]",False
+500000.0,95000.0,"Bv Chacabuco 500, Piso 3",46,1,1,10,argenprop,Cordoba,False,"(42.0, 53.5]",True
+550000.0,160000.0,"Fructuoso Rivera 400, Piso 1",40,1,1,8,argenprop,Cordoba,False,"(23.999, 42.0]",True
+700000.0,30000.0,PADRE LUIS GALEANO 900,45,1,1,,argenprop,Cordoba,False,"(42.0, 53.5]",True
+1000000.0,300000.0,NAPOLES 500,95,2,2,1,argenprop,Cordoba,False,"(70.0, 300.0]",True
+1636700.0,,NEPER 5300,150,2,2,,argenprop,Cordoba,False,"(70.0, 300.0]",False
+700000.0,,27 de Abril 900,80,2,2,30,argenprop,Cordoba,False,"(70.0, 300.0]",True
+550000.0,,"AV.ESTRADA 100, Piso 3",50,1,1,,argenprop,Cordoba,False,"(42.0, 53.5]",True
+500000.0,45000.0,Obispo Salguero 100,56,2,1,,argenprop,Cordoba,True,"(53.5, 70.0]",False
+600000.0,50000.0,MARCELO T DE ALVEAR 900,101,3,2,,argenprop,Cordoba,True,"(70.0, 300.0]",False
+640000.0,110000.0,"M Fragueiro 300, Piso 8",55,2,1,42,argenprop,Cordoba,False,"(53.5, 70.0]",True
+400000.0,70000.0,Tucumán 400,50,1,1,9,argenprop,Cordoba,False,"(42.0, 53.5]",True
+550000.0,,"OB SALGUERO 600, Piso 6",55,1,1,,argenprop,Cordoba,False,"(53.5, 70.0]",True
+700000.0,120000.0,JERONIMO LUIS DE CABRERA 700,90,2,2,,argenprop,Cordoba,False,"(70.0, 300.0]",False
+420000.0,124000.0,"24 de septiembre 1500, Piso 5",45,1,1,10,argenprop,Cordoba,False,"(42.0, 53.5]",True
+450000.0,90000.0,"Lima 1900, Piso 5",50,1,1,15,argenprop,Cordoba,False,"(42.0, 53.5]",True
+550000.0,,"Ituzaingo 400, Piso 3",47,1,1,,argenprop,Cordoba,True,"(42.0, 53.5]",False
+430000.0,,"Belgrano 400, Piso 11",42,1,1,,argenprop,Cordoba,False,"(23.999, 42.0]",False
+850000.0,70000.0,"David Luque 1000, Piso 4",86,2,2,,argenprop,Cordoba,True,"(70.0, 300.0]",False
+310000.0,36000.0,"Paraguay 100, Piso 1",35,1,1,,argenprop,Cordoba,False,"(23.999, 42.0]",False
+320000.0,60000.0,"Isabel La Católica 1000, Piso 4",45,1,1,5,argenprop,Cordoba,False,"(42.0, 53.5]",True
+450000.0,97000.0,"Duarte Quirós 4900, Piso 4",40,1,1,15,argenprop,Cordoba,False,"(23.999, 42.0]",True
+400000.0,,"ENFERMERA CLERMONT 300, Piso 3",47,1,1,15,argenprop,Cordoba,True,"(42.0, 53.5]",False
+270000.0,78000.0,Arturo Orgaz 258,30,1,1,27,argenprop,Cordoba,False,"(23.999, 42.0]",True
+600000.0,112000.0,"Bv San Juan 700, Piso 10",45,1,1,25,argenprop,Cordoba,False,"(42.0, 53.5]",True
+550000.0,105000.0,"Independencia 300, Piso 7",45,1,1,12,argenprop,Cordoba,False,"(42.0, 53.5]",True
+305000.0,,Trafalgar 1000,42,1,1,15,argenprop,Cordoba,False,"(23.999, 42.0]",True
+1300000.0,250000.0,"Colon 400, Piso 11",25,2,1,30,argenprop,Cordoba,False,"(23.999, 42.0]",True
+2000000.0,760000.0,"Obispo Salguero 800, Piso 8",280,3,2,12,argenprop,Cordoba,False,"(70.0, 300.0]",True
+730000.0,,Bv. San Juan 200,80,1,1,,argenprop,Cordoba,False,"(70.0, 300.0]",False
+800000.0,,"Av. Pujol 1900, Piso 1",101,3,2,,argenprop,Corrientes,True,"(70.0, 300.0]",False
+400000.0,,Belgrano 2400,38,1,1,6,argenprop,Corrientes,False,"(23.999, 42.0]",True
+280000.0,,Av. independencia 4800,56,2,1,,argenprop,Corrientes,True,"(53.5, 70.0]",False
+300000.0,,"Las Heras 1200, Piso 3",47,1,1,,argenprop,Corrientes,True,"(42.0, 53.5]",False
+300000.0,,"Sourigues 100, Piso 1",35,1,1,,argenprop,Entre Rios,False,"(23.999, 42.0]",False
+700000.0,120000.0,Cacique Mariano Rosas 100,79,2,2,25,argenprop,La Pampa,False,"(70.0, 300.0]",True
+620000.0,30000.0,Calle La Chilladora 100,60,2,1,42,argenprop,La Pampa,False,"(53.5, 70.0]",True
+650000.0,,Nicolás Avellaneda 400,63,2,1,,argenprop,Mendoza,False,"(53.5, 70.0]",False
+1133100.0,,MARTINEZ DE ROSAS 45 100,90,2,2,,argenprop,Mendoza,False,"(70.0, 300.0]",True
+850000.0,,F J Moyano 1400,101,3,2,,argenprop,Mendoza,True,"(70.0, 300.0]",False
+800000.0,,Montevideo 600,80,3,1,,argenprop,Mendoza,True,"(70.0, 300.0]",False
+818350.0,,Boulogne Sur Mer 1300,47,1,1,,argenprop,Mendoza,True,"(42.0, 53.5]",False
+300000.0,,General Paz 400,47,1,1,,argenprop,Mendoza,True,"(42.0, 53.5]",False
+850000.0,,NICOLAS AVELLANEDA 500,100,3,3,,argenprop,Mendoza,True,"(70.0, 300.0]",False
+550000.0,,Avenida Bartolomé Mitre 700,47,1,1,,argenprop,Mendoza,True,"(42.0, 53.5]",False
+430000.0,15000.0,"Jose Federico Moreno 1100, Piso PB",80,1,1,45,argenprop,Mendoza,False,"(70.0, 300.0]",True
+590000.0,39000.0,"OLASCOAGA , Piso PB",75,2,2,20,argenprop,Mendoza,False,"(70.0, 300.0]",True
+350000.0,45000.0,Patricias Mendocinas Y PEDRO MOLINA,47,1,1,,argenprop,Mendoza,True,"(42.0, 53.5]",False
+420000.0,50000.0,Avenida España 900,40,1,1,45,argenprop,Mendoza,False,"(23.999, 42.0]",True
+470000.0,45000.0,"9 de julio 300, Piso 2",79,3,1,,argenprop,Mendoza,False,"(70.0, 300.0]",False
+650000.0,45000.0,"9 DE JULIO  Y PEATONAL, CIUDAD",60,2,1,15,argenprop,Mendoza,False,"(53.5, 70.0]",True
+800000.0,,Granaderos y Lamadrid,90,2,2,20,argenprop,Mendoza,False,"(70.0, 300.0]",True
+350000.0,60000.0,BUENOS AIRES,45,1,1,30,argenprop,Mendoza,False,"(42.0, 53.5]",True
+320000.0,9500.0,Joaquin V Gonzalez 100,26,,,20,argenprop,Mendoza,False,"(23.999, 42.0]",False
+1510800.0,,MARIANO MORENO 555 TORRES LELOIR,75,1,1,0,argenprop,Mendoza,False,"(70.0, 300.0]",True
+500000.0,,Jujuy 1146 Cuarta Seccion Capital Mendoza,100,2,2,30,argenprop,Mendoza,False,"(70.0, 300.0]",True
+1888500.0,180000.0,MARIANO MORENO,98,2,2,0,argenprop,Mendoza,False,"(70.0, 300.0]",True
+600000.0,,LUGONES Y RODRIGUEZ,90,3,2,20,argenprop,Mendoza,False,"(70.0, 300.0]",True
+420000.0,,"Cayetano Silva 2200, Piso 1",65,2,1,,argenprop,Mendoza,False,"(53.5, 70.0]",False
+1100000.0,130000.0,"RUFINO ORTEGA, QUINTA SECCIÓN",70,2,1,1,argenprop,Mendoza,False,"(53.5, 70.0]",True
+450000.0,,LA RIOJA,45,1,1,7,argenprop,Mendoza,False,"(42.0, 53.5]",True
+400000.0,70000.0,Edificio Emperador 1. calle Buenos Aires 428,30,1,1,15,argenprop,Mendoza,False,"(23.999, 42.0]",True
+1150000.0,,"Francisco Moyano ,sexta sección",120,3,2,10,argenprop,Mendoza,False,"(70.0, 300.0]",True
+350000.0,,"CALLE NOTTI,FRENTE AL DALVIAN",45,1,1,10,argenprop,Mendoza,False,"(42.0, 53.5]",True
+430000.0,42000.0,TAPON MOYANO,79,2,2,0,argenprop,Mendoza,False,"(70.0, 300.0]",True
+881300.0,95000.0,Patricias Mendocinas,65,2,1,10,argenprop,Mendoza,False,"(53.5, 70.0]",True
+881300.0,,Avenida Colón 700,70,2,1,25,argenprop,Mendoza,False,"(53.5, 70.0]",True
+1825550.0,50000.0,Avenida España 700,220,3,2,45,argenprop,Mendoza,False,"(70.0, 300.0]",True
+1270000.0,,"Paso de los Andes 200, Piso 0",70,2,1,2025,argenprop,Mendoza,False,"(53.5, 70.0]",True
+1133100.0,,"Necochea 473, Mendoza, 100",95,3,2,8,argenprop,Mendoza,False,"(70.0, 300.0]",True
+565000.0,92000.0,Mitre 700,50,1,1,,argenprop,Mendoza,False,"(42.0, 53.5]",False
+550000.0,,"PATRICIAS MENDOCINAS , Piso 2",120,3,2,2025,argenprop,Mendoza,False,"(70.0, 300.0]",True
+800000.0,,"Av.Mitre 1700, Piso 0",127,2,2,2025,argenprop,Mendoza,False,"(70.0, 300.0]",True
+1007200.0,108000.0,AVENIDA MITRE 700,84,2,2,21,argenprop,Mendoza,False,"(70.0, 300.0]",True
+430000.0,100000.0,Chacabuco 400,80,3,1,,argenprop,Mendoza,False,"(70.0, 300.0]",False
+1070150.0,218000.0,BARRIO DALVIAN 100,60,1,1,2,argenprop,Mendoza,False,"(53.5, 70.0]",True
+850000.0,60000.0,Gutiérrez 700,60,2,1,30,argenprop,Mendoza,False,"(53.5, 70.0]",True
+950000.0,125000.0,Avenida Bartolomé Mitre 500,120,3,2,30,argenprop,Mendoza,False,"(70.0, 300.0]",True
+900000.0,97000.0,"PUEYRREDON 300, Piso 0",75,2,2,2025,argenprop,Mendoza,False,"(70.0, 300.0]",True
+730000.0,60000.0,Gutierrez 700,54,2,1,39,argenprop,Mendoza,False,"(53.5, 70.0]",True
+580000.0,45000.0,Montevideo 100,75,2,2,45,argenprop,Mendoza,False,"(70.0, 300.0]",True
+380000.0,,Patricias Mendocinas 1200,24,1,1,47,argenprop,Mendoza,False,"(23.999, 42.0]",True
+590000.0,,"Doctor Agustín Mazza 1700, Piso 0",60,1,1,2025,argenprop,Mendoza,False,"(53.5, 70.0]",True
+700000.0,77000.0,Joaquín V. González 600,75,2,2,8,argenprop,Mendoza,False,"(70.0, 300.0]",True
+600000.0,120000.0,Avenida Godoy Cruz 500,77,1,1,6,argenprop,Mendoza,False,"(70.0, 300.0]",True
+450000.0,59500.0,Avenida España 900,36,,1,10,argenprop,Mendoza,False,"(23.999, 42.0]",False
+550000.0,28000.0,San Lorenzo 300,70,2,1,35,argenprop,Mendoza,False,"(53.5, 70.0]",True
+700000.0,220000.0,"Junin 2000, Piso 9",93,3,2,,argenprop,Misiones,False,"(70.0, 300.0]",False
+700000.0,,"FELIX DE AZARA 2000, Piso 6",63,2,2,,argenprop,Misiones,False,"(53.5, 70.0]",False
+620000.0,,"Ramón Lista 1100, Piso 4",42,1,1,,argenprop,Misiones,False,"(23.999, 42.0]",False
+400000.0,120000.0,"Alvear , Piso 6",42,1,1,,argenprop,Misiones,False,"(23.999, 42.0]",True
+570000.0,,"Ramón Lista 1100, Piso 3",37,1,1,,argenprop,Misiones,False,"(23.999, 42.0]",False
+700000.0,,"Beato Roque González 800, Piso 19",47,1,1,,argenprop,Misiones,True,"(42.0, 53.5]",False
+800000.0,,"Depto. de 2 dormitorios, con cochera Edificio Puerta de Alcalá 21D",97,1,1,0,argenprop,Misiones,False,"(70.0, 300.0]",True
+680000.0,,"Departamento de 1 dormitorio amoblado, Posadas",47,1,1,0,argenprop,Misiones,True,"(42.0, 53.5]",False
+350000.0,,Av. Uruguay y Av. Buchardo,60,1,1,0,argenprop,Misiones,False,"(53.5, 70.0]",True
+1200000.0,,"Beato Roque González 800, Piso 9",105,2,3,,argenprop,Misiones,False,"(70.0, 300.0]",False
+900000.0,,"Beato Roque González 800, Piso 12",65,1,1,,argenprop,Misiones,False,"(53.5, 70.0]",False
+2500000.0,,"Colon 1300, Piso 15",300,5,5,10,argenprop,Misiones,True,"(70.0, 300.0]",False
+300000.0,,Av. Lopez y Planes y Vivanco,60,2,1,10,argenprop,Misiones,False,"(53.5, 70.0]",True
+920000.0,,"Beato Roque González 800, Piso 13",65,1,1,,argenprop,Misiones,False,"(53.5, 70.0]",False
+920000.0,,"Beato Roque González 800, Piso 14",65,1,1,,argenprop,Misiones,False,"(53.5, 70.0]",False
+390000.0,,Av. Francisco de Haro y Ambrosetti,65,1,1,0,argenprop,Misiones,False,"(53.5, 70.0]",True
+450000.0,,Avila al 4400,70,2,1,0,argenprop,Misiones,False,"(53.5, 70.0]",True
+700000.0,,"Beato Roque González 800, Piso 13",47,1,1,,argenprop,Misiones,True,"(42.0, 53.5]",False
+1800000.0,300000.0,Departamento de 3 dormitorios amoblado,101,3,2,0,argenprop,Misiones,True,"(70.0, 300.0]",False
+800000.0,,"Junin 1800, Piso 10",86,2,2,,argenprop,Misiones,True,"(70.0, 300.0]",False
+1190000.0,,"San Martín 2100, Piso 14",104,2,3,,argenprop,Misiones,True,"(70.0, 300.0]",False
+900000.0,80000.0,Av. Tambor de Tacuarí y Lavalle,70,3,2,0,argenprop,Misiones,False,"(53.5, 70.0]",True
+500000.0,,"Roque Gonzalez 1000, Piso 1",40,1,1,,argenprop,Misiones,False,"(23.999, 42.0]",False
+700000.0,,Edif. Alba I,95,2,2,0,argenprop,Misiones,False,"(70.0, 300.0]",True
+590000.0,,"Ramón Lista 1100, Piso 2",42,1,1,,argenprop,Misiones,False,"(23.999, 42.0]",False
+497000.0,,"Ramón Lista 1100, Piso 3",29,1,1,,argenprop,Misiones,False,"(23.999, 42.0]",False
+473000.0,,"Ramón Lista 1100, Piso 3",27,1,1,,argenprop,Misiones,False,"(23.999, 42.0]",False
+605000.0,,"Ramón Lista 1100, Piso 3",42,1,1,,argenprop,Misiones,False,"(23.999, 42.0]",False
+500000.0,,"Bustamante 3000, Piso 1",60,2,1,5,argenprop,Misiones,False,"(53.5, 70.0]",True
+350000.0,,San Marcos y Francia,30,,1,0,argenprop,Misiones,False,"(23.999, 42.0]",False
+500000.0,,Herrera,40,1,1,0,argenprop,Misiones,False,"(23.999, 42.0]",True
+490000.0,80000.0,Departamento de 2 dormitorios céntrico,60,2,1,0,argenprop,Misiones,False,"(53.5, 70.0]",True
+800000.0,,"Junin 1800, Piso 7",86,2,2,,argenprop,Misiones,True,"(70.0, 300.0]",False
+950000.0,,"Beato Roque González 800, Piso 15",65,1,1,,argenprop,Misiones,False,"(53.5, 70.0]",False
+1100000.0,,"Beato Roque González 800, Piso 6",105,2,3,,argenprop,Misiones,False,"(70.0, 300.0]",False
+1200000.0,,"Beato Roque González 800, Piso 19",105,2,3,,argenprop,Misiones,False,"(70.0, 300.0]",False
+620000.0,,"Beethoven 1600, Piso 7",109,2,2,,argenprop,Misiones,False,"(70.0, 300.0]",False
+1400000.0,,"Ayacucho 1300, Piso 14",100,3,3,,argenprop,Misiones,True,"(70.0, 300.0]",False
+800000.0,,"Ayacucho 1300, Piso 10",67,1,1,4,argenprop,Misiones,False,"(53.5, 70.0]",True
+800000.0,,"López Torres 4800, Piso 12",71,1,1,,argenprop,Misiones,False,"(70.0, 300.0]",False
+600000.0,,Pedro Mendez 2032,60,1,1,0,argenprop,Misiones,False,"(53.5, 70.0]",True
+400000.0,,Ch. 32-33,70,2,1,0,argenprop,Misiones,False,"(53.5, 70.0]",True
+2400000.0,,Colón 1300,300,5,5,,argenprop,Misiones,False,"(70.0, 300.0]",False
+250000.0,,Calle 168,50,1,1,,argenprop,Misiones,False,"(42.0, 53.5]",False
+1190000.0,,San Martín 2100,101,2,3,,argenprop,Misiones,False,"(70.0, 300.0]",False
+900000.0,,Junín 1800,67,2,2,,argenprop,Misiones,False,"(53.5, 70.0]",False
+850000.0,,Beato Roque González 800,65,1,1,,argenprop,Misiones,False,"(53.5, 70.0]",False
+1100000.0,,Beato Roque González 800,105,2,3,,argenprop,Misiones,False,"(70.0, 300.0]",False
+800000.0,,Ayacucho 1300,67,1,1,,argenprop,Misiones,False,"(53.5, 70.0]",False
+1150000.0,60000.0,"Carlos Hilario Rodriguez 600, Piso 2",56,2,1,30,argenprop,Neuquen,True,"(53.5, 70.0]",False
+1800000.0,,"Avenida Argentina y República de Italia , Piso 1",80,3,2,,argenprop,Neuquen,False,"(70.0, 300.0]",False
+850000.0,85000.0,"Islas Malvinas 800, Piso Pb",47,1,1,,argenprop,Neuquen,True,"(42.0, 53.5]",False
+2200000.0,,TARIFEÑO INMOBILIARIA ALQUILA,104,2,3,,argenprop,Neuquen,True,"(70.0, 300.0]",False
+880000.0,69000.0,"Belgrano 100, Piso 4",40,1,1,15,argenprop,Neuquen,False,"(23.999, 42.0]",True
+1500000.0,,B° URB. BOSCH,107,2,2,,argenprop,Neuquen,False,"(70.0, 300.0]",False
+1800000.0,,Sargento Cabral y La Rioja,88,2,2,15,argenprop,Neuquen,False,"(70.0, 300.0]",True
+1300000.0,,"Presidente arturo illia 400, Piso 2",56,2,1,,argenprop,Neuquen,True,"(53.5, 70.0]",False
+1000000.0,,Departamento en alquiler Torre Vitruvio.,,1,2,,argenprop,Neuquen,True,,False
+1700000.0,,"Av. San Juan 800, Piso 4",70,2,1,0,argenprop,Neuquen,False,"(53.5, 70.0]",True
+780000.0,,Belgrano 200,32,,1,,argenprop,Neuquen,False,"(23.999, 42.0]",False
+1300000.0,,"Tucumán 100, Piso 9",56,2,1,,argenprop,Neuquen,True,"(53.5, 70.0]",False
+730000.0,,Santa Fe Sur 100,37,1,1,40,argenprop,Neuquen,False,"(23.999, 42.0]",True
+780000.0,,Antártida Argentina 600,33,,1,15,argenprop,Neuquen,False,"(23.999, 42.0]",False
+900000.0,90000.0,Alquiler Departamento Calle Mitre 900,,1,,,argenprop,Neuquen,False,,False
+4658300.0,380000.0,"INAL ANTU 1000, Piso 4",140,2,2,12,argenprop,Neuquen,False,"(70.0, 300.0]",True
+1600000.0,,Carlos H.Rodriguez 300,48,2,2,,argenprop,Neuquen,False,"(42.0, 53.5]",False
+1500000.0,,General Manuel Belgrano 600,50,2,1,,argenprop,Neuquen,False,"(42.0, 53.5]",True
+1600000.0,,Carlos H Rodriguez 300,86,2,2,,argenprop,Neuquen,True,"(70.0, 300.0]",False
+1600000.0,,Carlos Hilario Rodriguez 300,48,2,1,,argenprop,Neuquen,False,"(42.0, 53.5]",False
+2700000.0,,Carlos Hilario Rodriguez 300,,3,,,argenprop,Neuquen,False,,False
+1300000.0,,"Depto en alquiler, Cordoba y Alderete",55,1,1,5,argenprop,Neuquen,False,"(53.5, 70.0]",True
+1300000.0,42000.0,"Depto 1 dor, Edificio Vitruvio Neuquen",65,1,1,0,argenprop,Neuquen,False,"(53.5, 70.0]",True
+3200000.0,400000.0,Mendoza al 100,122,3,2,25,argenprop,Neuquen,False,"(70.0, 300.0]",True
+1100000.0,,Dewey  al 200,30,,1,0,argenprop,Neuquen,False,"(23.999, 42.0]",False
+2000000.0,150000.0,"Belgrano 100, Piso 1",100,3,3,,argenprop,Neuquen,False,"(70.0, 300.0]",False
+1500000.0,,FAVA 65,58,1,1,0,argenprop,Neuquen,False,"(53.5, 70.0]",True
+1300000.0,,Fava 65,47,1,1,0,argenprop,Neuquen,False,"(42.0, 53.5]",True
+630000.0,,2º  PISO 100,32,1,1,23,argenprop,Neuquen,False,"(23.999, 42.0]",True
+1888500.0,,Mendoza 400,53,1,1,6,argenprop,Neuquen,False,"(42.0, 53.5]",True
+1600000.0,,Carlos H. Rodriguez 400,78,2,2,7,argenprop,Neuquen,False,"(70.0, 300.0]",True
+100000.0,,Mendoza 400,53,1,1,6,argenprop,Neuquen,False,"(42.0, 53.5]",True
+850000.0,25000.0,Sargento Cabral 2100,65,1,1,23,argenprop,Neuquen,False,"(53.5, 70.0]",True
+780000.0,50000.0,Belgrano 200,34,,,4,argenprop,Neuquen,False,"(23.999, 42.0]",False
+2200000.0,230000.0,Brown Almirante 100,134,4,,26,argenprop,Neuquen,False,"(70.0, 300.0]",False
+1500000.0,160000.0,Sargento Cabral 300,59,1,1,0,argenprop,Neuquen,False,"(53.5, 70.0]",True
+2518000.0,160000.0,Sargento Cabral 300,110,2,2,0,argenprop,Neuquen,False,"(70.0, 300.0]",True
+1300000.0,5000.0,Eugenio Perticone 600,84,2,2,45,argenprop,Neuquen,False,"(70.0, 300.0]",True
+1300000.0,150000.0,Mitre 800,56,1,1,2,argenprop,Neuquen,False,"(53.5, 70.0]",True
+780000.0,80000.0,Antártida Argentina 600,29,,1,15,argenprop,Neuquen,False,"(23.999, 42.0]",False
+1300000.0,,Mendoza 1100,70,2,1,20,argenprop,Neuquen,False,"(53.5, 70.0]",True
+2700000.0,,Ch rodriguez 400,100,3,2,10,argenprop,Neuquen,False,"(70.0, 300.0]",True
+2200000.0,300000.0,Julio Argentino Roca 1200,95,3,2,5,argenprop,Neuquen,False,"(70.0, 300.0]",True
+2100000.0,141000.0,Gobernador Elordi 200,73,2,2,24,argenprop,Neuquen,False,"(70.0, 300.0]",True
+1000000.0,130000.0,Jujuy 200,50,1,1,7,argenprop,Neuquen,False,"(42.0, 53.5]",True
+500000.0,75000.0,"Rivadavia 200, Piso 3",55,1,1,12,argenprop,Salta,False,"(53.5, 70.0]",True
+480000.0,,Exc depto 1 dor alq bcon/asador/gge/SUM Dean Funes 1200,52,1,1,,argenprop,Salta,False,"(42.0, 53.5]",False
+480000.0,70000.0,"Alsina 300, Piso 3",32,,1,5,argenprop,Salta,False,"(23.999, 42.0]",False
+600000.0,70000.0,"Caseros 1300, Piso 2",52,1,1,10,argenprop,Salta,False,"(42.0, 53.5]",True
+881300.0,,Alvarado 1800,79,2,2,5,argenprop,Salta,False,"(70.0, 300.0]",True
+755400.0,70000.0,"Dean Funes 300, Piso 3",47,1,1,,argenprop,Salta,True,"(42.0, 53.5]",False
+1259000.0,,"Deán Funes 500, Piso 3",86,2,2,,argenprop,Salta,True,"(70.0, 300.0]",False
+690000.0,,Exc Depto 2 Dor Alq terraza/asador Alvarado al 300,55,2,1,25,argenprop,Salta,False,"(53.5, 70.0]",True
+500000.0,,Exc Depto 1 Dor Alquiler x 2 años Alte Brown 200,44,1,1,5,argenprop,Salta,False,"(42.0, 53.5]",True
+600000.0,,Exc Depto 1 Dor Alq Amob Gge/sum/pileta 12 Octubre 700,45,1,1,2,argenprop,Salta,False,"(42.0, 53.5]",True
+400000.0,45000.0,Exc Depto Monoambiente Alq luminoso Ameghino al 200,38,,1,10,argenprop,Salta,False,"(23.999, 42.0]",False
+350000.0,,GRAND BOURG,,1,,,argenprop,Salta,False,,False
+800000.0,16000.0,Exc Depto 3 Dorm Bcon Alq Amoblado B° General,90,3,2,40,argenprop,Salta,False,"(70.0, 300.0]",True
+600000.0,70000.0,"Aniceto Latorre 800, Piso 1",90,3,1,,argenprop,Salta,False,"(70.0, 300.0]",False
+629500.0,,BUENOS AIRES 100,50,1,1,15,argenprop,Salta,False,"(42.0, 53.5]",True
+600000.0,4000.0,"Parque Belgrano 100, Piso 2 6",80,3,1,,argenprop,Salta,True,"(70.0, 300.0]",False
+500000.0,,"Dean Funes 1000, Piso 8 810",45,,1,0,argenprop,Salta,False,"(42.0, 53.5]",False
+700000.0,80000.0,Juramento 1400,47,1,1,,argenprop,Salta,True,"(42.0, 53.5]",False
+780580.0,75000.0,Exc. Depto 1 Dorm Alq Balcón/gge Dean Funes 1300,56,1,1,10,argenprop,Salta,False,"(53.5, 70.0]",True
+360000.0,55000.0,"Alsina 300, Piso 4",30,,1,4,argenprop,Salta,False,"(23.999, 42.0]",False
+700000.0,85000.0,"Av Belgrano 2300, Piso 1",73,1,1,8,argenprop,Salta,False,"(70.0, 300.0]",True
+450000.0,45000.0,Alquiler Monoambiente amoblado calle Juramento,32,,1,16,argenprop,Salta,False,"(23.999, 42.0]",False
+580000.0,75000.0,Av Belgrano 1500,39,1,1,7,argenprop,Salta,False,"(23.999, 42.0]",True
+700000.0,,"Bolivar 400, Piso 4",80,2,2,,argenprop,Salta,False,"(70.0, 300.0]",False
+750000.0,90000.0,Necochea 300,67,2,1,4,argenprop,Salta,False,"(53.5, 70.0]",True
+450000.0,55000.0,Av. Reyes Catolicos 1500,45,1,1,6,argenprop,Salta,False,"(42.0, 53.5]",True
+1259000.0,,Departamento amoblado en alquiler calle Necochea,78,2,2,,argenprop,Salta,False,"(70.0, 300.0]",False
+650000.0,,Monoambiente en alquiler San Lorenzo Chico,35,,1,,argenprop,Salta,False,"(23.999, 42.0]",False
+650000.0,85000.0,"Av Belgrano 2300, Piso 2",57,1,1,10,argenprop,Salta,False,"(53.5, 70.0]",True
+3147500.0,,Dean Funes al 800,86,2,2,0,argenprop,Salta,True,"(70.0, 300.0]",False
+600000.0,,Departamento en alquiler a estrenar zona Easy,47,1,1,0,argenprop,Salta,True,"(42.0, 53.5]",False
+600000.0,,Departamento un dormitorio en alquiler Pueyrredon,65,1,1,,argenprop,Salta,False,"(53.5, 70.0]",False
+700000.0,,Departamento tres dormitorios en alquiler,80,3,1,,argenprop,Salta,True,"(70.0, 300.0]",False
+650000.0,,Departamento amoblado en alquiler,53,1,1,,argenprop,Salta,False,"(42.0, 53.5]",False
+650000.0,,Departamento a estrenar en alquiler zona Easy,47,1,1,0,argenprop,Salta,True,"(42.0, 53.5]",False
+1384900.0,100000.0,"20 De Febrero 1100, Piso 5",56,2,1,,argenprop,Salta,True,"(53.5, 70.0]",False
+600000.0,206000.0,Gral. Güemes 1800,70,1,1,15,argenprop,Salta,False,"(53.5, 70.0]",True
+650000.0,,Tres Cerritos - Júncaros 350,,3,,,argenprop,Salta,False,,False
+750000.0,,Belgica y Paraguay,,3,,,argenprop,Salta,False,,False
+320000.0,,Bº Scalabrini Ortiz,,1,,,argenprop,Salta,False,,False
+380000.0,,B* Bancario,,2,,,argenprop,Salta,False,,False
+660000.0,,Bº Casino,88,3,2,,argenprop,Salta,False,"(70.0, 300.0]",True
+550000.0,,Departamento en alquiler zona sur,80,3,1,,argenprop,Salta,True,"(70.0, 300.0]",False
+450000.0,,"DE LA ROZA, JOSE IGNACIO ESTE 100",41,1,1,,argenprop,San Juan,False,"(23.999, 42.0]",True
+280000.0,75000.0,"Las heras 100, Piso 1",24,,1,,argenprop,San Juan,False,"(23.999, 42.0]",False
+300000.0,,General Acha Sur 800,30,,,,argenprop,San Juan,False,"(23.999, 42.0]",False
+1200000.0,,Libertador oeste 600,119,3,2,,argenprop,San Juan,False,"(70.0, 300.0]",True
+750000.0,,Santa Fe Oeste 100,90,2,2,,argenprop,San Juan,False,"(70.0, 300.0]",True
+280000.0,,Constitucion 1100,47,1,1,,argenprop,San Luis,True,"(42.0, 53.5]",False
+410000.0,,Ministro Berrondo 100,56,2,1,,argenprop,San Luis,True,"(53.5, 70.0]",False
+400000.0,,Pasaje remedios de escalada de san martin 1400,56,2,1,,argenprop,San Luis,True,"(53.5, 70.0]",False
+620000.0,,Cnel J Pringles 1300,86,2,2,,argenprop,San Luis,True,"(70.0, 300.0]",False
+400000.0,,Caseros 600,47,1,1,10,argenprop,San Luis,True,"(42.0, 53.5]",False
+850000.0,160000.0,Av. Almirante Brown  al 6700,79,2,2,52,argenprop,Santa fe,False,"(70.0, 300.0]",True
+761250.0,73208.0,"ENTRADA INDEPENDIENTE, JARDÍN EN ESQUINA, ESTAR COMEDOR, COCINA, DOS DORMITORIOS, EQUIPADO",56,2,1,11,argenprop,Santa fe,False,"(53.5, 70.0]",True
+761250.0,80000.0,"Semipiso estar comedor con balcon, cocina, escritorio, 2 baños, 2 dorm con placard, balcon lavadero",68,2,1,5,argenprop,Santa fe,False,"(53.5, 70.0]",True
+517650.0,62397.0,"PARA ESTUDIAR O TRABAJAR, LUMINOSO, AMPLIO, CON BALCONES, EQUIPADO, A PASOS DE LA COSTANERA",53,1,1,11,argenprop,Santa fe,False,"(42.0, 53.5]",True
+406000.0,25369.0,"SUPER LUMINOSO BALCON AL FRENTE, PLACARD Y COCINA A ESTRENAR",40,1,1,0,argenprop,Santa fe,False,"(23.999, 42.0]",True
+406000.0,27906.0,AMPLIO CON BALCON COCINA LAVADERO SECTORIZADA A ESTRENAR,40,1,1,0,argenprop,Santa fe,False,"(23.999, 42.0]",True
+558250.0,45636.0,"SEMIPISO DE UN DORMITORIO, COCINA SECTORIAZADA, ESCRITORIO, UN BAÑO Y DOS BALCONES, COCHERA OPCIONAL",43,1,1,0,argenprop,Santa fe,False,"(42.0, 53.5]",True
+609000.0,43433.0,"Muy luminoso, en esquina con tres balcones equipado con cocina y calefactor",51,2,1,18,argenprop,Santa fe,False,"(42.0, 53.5]",True
+650000.0,100000.0,"SAN MARTIN 2000, Piso 6",80,3,2,,argenprop,Santa fe,False,"(70.0, 300.0]",False
+517650.0,42816.0,"Amplio estar comedor, equipado con cocina, calefactor, placard y aire, TERRAZA exclusiva z/COSTANERA",40,1,1,16,argenprop,Santa fe,False,"(23.999, 42.0]",True
+714000.0,100000.0,Alquiler Dpto 3 dormis en Peatonal!,80,3,1,0,argenprop,Santa fe,True,"(70.0, 300.0]",False
+399000.0,,Alquiler interno San Jerónimo 3900,47,1,1,0,argenprop,Santa fe,True,"(42.0, 53.5]",False
+850000.0,70000.0,"BELGRANO 3100, Piso 3",,3,,,argenprop,Santa fe,False,,False
+400000.0,,Sarmiento 6400,40,1,1,3,argenprop,Santa fe,False,"(23.999, 42.0]",True
+750000.0,,"San Lorenzo 1900, Piso 11",56,2,1,,argenprop,Santa fe,True,"(53.5, 70.0]",False
+400000.0,122000.0,"AV J.J. PASO 2900, Piso 8",80,3,1,,argenprop,Santa fe,True,"(70.0, 300.0]",False
+600000.0,150000.0,San Martin  al 1800,70,2,1,40,argenprop,Santa fe,False,"(53.5, 70.0]",True
+550000.0,136000.0,Saavedra  al 2300,56,2,1,30,argenprop,Santa fe,True,"(53.5, 70.0]",False
+350000.0,,SAN MARTIN al 1800,47,1,1,30,argenprop,Santa fe,True,"(42.0, 53.5]",False
+585000.0,30000.0,San Jeronimo al 4300,80,3,2,35,argenprop,Santa fe,False,"(70.0, 300.0]",True
+1200000.0,140000.0,"SAN GERONIMO 1200, Piso 7",100,3,3,,argenprop,Santa fe,True,"(70.0, 300.0]",False
+450000.0,45000.0,"4 DE ENERO 2800, Piso 2",47,1,1,,argenprop,Santa fe,True,"(42.0, 53.5]",False
+850000.0,195000.0,"1 DE MAYO 2500, Piso 4",120,3,2,,argenprop,Santa fe,False,"(70.0, 300.0]",False
+230000.0,,Pje. Alberti 570 P1 - D4,30,,1,40,argenprop,Santa fe,False,"(23.999, 42.0]",False
+530000.0,70000.0,San Jeronimo al 2000,56,2,1,50,argenprop,Santa fe,True,"(53.5, 70.0]",False
+320000.0,25000.0,San Jose al 2200,47,1,1,30,argenprop,Santa fe,True,"(42.0, 53.5]",False
+530000.0,62000.0,San Jeronimo al 3900,65,2,1,25,argenprop,Santa fe,False,"(53.5, 70.0]",True
+480000.0,55000.0,"9 DE JULIO 3400, Piso 8",,1,,,argenprop,Santa fe,False,,False
+550000.0,,"BV. PELLEGRINI 3100, Piso 8",,1,,,argenprop,Santa fe,False,,False
+550000.0,60000.0,"BV. PELLEGRINI 3100, Piso 7",,1,,,argenprop,Santa fe,False,,False
+450000.0,38000.0,Francia  al 2600,47,1,1,20,argenprop,Santa fe,True,"(42.0, 53.5]",False
+380000.0,37000.0,"Iturraspe 2100, Piso 1",50,1,1,2005,argenprop,Santa fe,False,"(42.0, 53.5]",True
+620000.0,40000.0,Saavedra 3900,65,2,1,20,argenprop,Santa fe,False,"(53.5, 70.0]",True
+450000.0,37000.0,1ro de Mayo al 1800,80,2,2,50,argenprop,Santa fe,False,"(70.0, 300.0]",True
+650000.0,77000.0,Alte Brown  al 5700,56,2,1,50,argenprop,Santa fe,True,"(53.5, 70.0]",False
+270000.0,,Ricardo Aldao 1400,25,1,1,18,argenprop,Santa fe,False,"(23.999, 42.0]",True
+440000.0,50000.0,San Martín 2200,45,1,1,30,argenprop,Santa fe,False,"(42.0, 53.5]",True
+550000.0,70000.0,Calle Francia 2200,49,1,1,3,argenprop,Santa fe,False,"(42.0, 53.5]",True
+550000.0,50000.0,Gobernador Crespo 3900,60,2,1,16,argenprop,Santa fe,False,"(53.5, 70.0]",True
+420000.0,50000.0,San Martín 2400,45,1,1,30,argenprop,Santa fe,False,"(42.0, 53.5]",True
+450000.0,40000.0,Espora 800,50,1,1,12,argenprop,Santa fe,False,"(42.0, 53.5]",True
+950000.0,320000.0,"BV. GALVEZ 1100, Piso 1",86,2,2,,argenprop,Santa fe,True,"(70.0, 300.0]",False
+750000.0,180000.0,San Lorenzo 2700,140,3,2,19,argenprop,Santa fe,False,"(70.0, 300.0]",True
+900000.0,150000.0,Boulevard Gálvez 2000,70,2,1,13,argenprop,Santa fe,False,"(53.5, 70.0]",True
+470000.0,25000.0,Ituzaingó 1900,41,1,1,7,argenprop,Santa fe,False,"(23.999, 42.0]",True
+600000.0,,Juan de Garay 3000,55,1,1,5,argenprop,Santa fe,False,"(53.5, 70.0]",True
+503600.0,,Lisandro de la Torre 3900,65,1,1,2,argenprop,Santa fe,False,"(53.5, 70.0]",True
+550000.0,,Calle Teodoro Mendoza 4000,47,1,1,9,argenprop,Tierra del fuego,True,"(42.0, 53.5]",False
+650000.0,,De la rastra 2000,35,1,1,0,argenprop,Tierra del fuego,False,"(23.999, 42.0]",True
+790000.0,20000.0,Ramón Cortez 500,70,2,1,,argenprop,Tierra del fuego,False,"(53.5, 70.0]",False
+650000.0,,Avenida Leandro Alem 4400,40,1,1,6,argenprop,Tierra del fuego,False,"(23.999, 42.0]",True
+1825000.0,,"Presidente Bernardino Rivadavia 100, Piso 2",90,2,2,14,argenprop,Tierra del fuego,False,"(70.0, 300.0]",True
+890000.0,,"Walanika 300, Piso 3",45,1,1,10,argenprop,Tierra del fuego,False,"(42.0, 53.5]",True
+850000.0,,"Walanika 300, Piso 3",45,1,1,6,argenprop,Tierra del fuego,False,"(42.0, 53.5]",True
+680000.0,,"Walanika 300, Piso 3",40,1,1,8,argenprop,Tierra del fuego,False,"(23.999, 42.0]",True
+750000.0,,12 de Octubre 300,31,1,1,4,argenprop,Tierra del fuego,False,"(23.999, 42.0]",True
+1250000.0,,INDEPENDENCIA 213,54,2,1,6,argenprop,Tierra del fuego,False,"(53.5, 70.0]",True
+750000.0,,9 de julio N°229,55,,1,4,argenprop,Tierra del fuego,False,"(53.5, 70.0]",False
+850000.0,,Olegario Andrade 500,36,1,1,5,argenprop,Tierra del fuego,False,"(23.999, 42.0]",True
+650000.0,145000.0,Los Ñires 3900,25,1,1,0,argenprop,Tierra del fuego,False,"(23.999, 42.0]",True
+700000.0,50000.0,Alem 4600,40,1,1,10,argenprop,Tierra del fuego,False,"(23.999, 42.0]",True
+950000.0,50000.0,Gobernador Ernesto Manuel Campos 1500,52,1,1,1,argenprop,Tierra del fuego,False,"(42.0, 53.5]",True
+767000.0,,Gdor. Deloqui 300,33,1,1,0,argenprop,Tierra del fuego,False,"(23.999, 42.0]",True
+850000.0,,BRISIGHELLI 1000,60,2,1,30,argenprop,Tierra del fuego,False,"(53.5, 70.0]",True
+280000.0,60000.0,"Cordoba 300, Piso 2",40,1,1,,argenprop,Tucuman,False,"(23.999, 42.0]",False
+1500000.0,200000.0,"BALCARCE 800, Piso 3",135,3,2,35,argenprop,Tucuman,False,"(70.0, 300.0]",True
+600000.0,140000.0,"9 DE JULIO 700, Piso 5",80,2,2,15,argenprop,Tucuman,False,"(70.0, 300.0]",True
+450000.0,55000.0,"Av. SALTA 600, Piso 4",45,1,1,14,argenprop,Tucuman,False,"(42.0, 53.5]",True
+390000.0,90000.0,Monteagudo 400,55,1,1,,argenprop,Tucuman,False,"(53.5, 70.0]",True
+680000.0,125000.0,Muñecas 400,80,2,2,,argenprop,Tucuman,False,"(70.0, 300.0]",True
+380000.0,79000.0,CRISOSTOMO ALVAREZ 500,65,1,1,,argenprop,Tucuman,False,"(53.5, 70.0]",True
+260000.0,180000.0,"Catamarca 100, Piso 2",38,1,1,,argenprop,Tucuman,False,"(23.999, 42.0]",False
+300000.0,,JUAN PADROS 500,70,3,1,,argenprop,Tucuman,False,"(53.5, 70.0]",False
+500000.0,,Honduras 100,50,,,,argenprop,Tucuman,False,"(42.0, 53.5]",False
+700000.0,,Santiago Del Estero 100,70,2,1,13,argenprop,Tucuman,False,"(53.5, 70.0]",True
+380000.0,,Barrio Oeste 2,70,2,1,,argenprop,Tucuman,False,"(53.5, 70.0]",True
+380000.0,30000.0,España 1400,70,2,1,,argenprop,Tucuman,False,"(53.5, 70.0]",True
+430000.0,29000.0,Las Heras C 400,70,1,1,3,argenprop,Tucuman,False,"(53.5, 70.0]",True
+390000.0,43000.0,Bernabe Araoz C 100,55,1,1,,argenprop,Tucuman,False,"(53.5, 70.0]",True
+410000.0,30000.0,Jujuy  D 200,46,1,1,,argenprop,Tucuman,False,"(42.0, 53.5]",True
+380000.0,134000.0,Rivadavia 900,98,1,1,,argenprop,Tucuman,False,"(70.0, 300.0]",True
+390000.0,35000.0,General Paz 900,55,1,1,,argenprop,Tucuman,False,"(53.5, 70.0]",True
+390000.0,27000.0,Jujuy  E 200,65,1,1,,argenprop,Tucuman,False,"(53.5, 70.0]",True
+440000.0,46000.0,Av. Soldati A 200,65,1,1,12,argenprop,Tucuman,False,"(53.5, 70.0]",True
+580000.0,86000.0,San Lorenzo 800,65,2,1,,argenprop,Tucuman,False,"(53.5, 70.0]",True
+315000.0,26000.0,CRISóSTOMO ÁLVAREZ 1600,60,1,1,,argenprop,Tucuman,False,"(53.5, 70.0]",True
+430000.0,,Las Heras C 400,70,1,1,3,argenprop,Tucuman,False,"(53.5, 70.0]",True
+390000.0,30000.0,Bernabe Araoz C 100,55,1,1,,argenprop,Tucuman,False,"(53.5, 70.0]",True
+420000.0,30000.0,Jujuy C 200,55,1,1,,argenprop,Tucuman,False,"(53.5, 70.0]",True
+420000.0,30000.0,Jujuy  D 200,46,1,1,,argenprop,Tucuman,False,"(42.0, 53.5]",True
+500000.0,,Laprida 400,65,2,1,40,argenprop,Tucuman,False,"(53.5, 70.0]",True
+300000.0,50000.0,General Paz 1000,60,1,1,,argenprop,Tucuman,False,"(53.5, 70.0]",True
+420000.0,,Jujuy C 200,55,1,1,,argenprop,Tucuman,False,"(53.5, 70.0]",True
+420000.0,,Jujuy B 200,60,,,,argenprop,Tucuman,False,"(53.5, 70.0]",False
+450000.0,63000.0,Amador Lucero B 100,61,1,1,1,argenprop,Tucuman,False,"(53.5, 70.0]",True
+210000.0,25000.0,Pasaje Gatibaldi 100,35,,,,argenprop,Tucuman,False,"(23.999, 42.0]",False
+450000.0,32000.0,Amador Lucero D 100,60,1,1,1,argenprop,Tucuman,False,"(53.5, 70.0]",True
+700000.0,,Las Heras A 400,145,2,2,,argenprop,Tucuman,False,"(70.0, 300.0]",False
+470000.0,,Balcarce 600,70,1,1,0,argenprop,Tucuman,False,"(53.5, 70.0]",True
+490000.0,44000.0,Amador Lucero E 100,74,1,1,1,argenprop,Tucuman,False,"(70.0, 300.0]",True
+410000.0,70000.0,San Lorenzo 800,65,1,1,,argenprop,Tucuman,False,"(53.5, 70.0]",True
+390000.0,50000.0,San Lorenzo 700,60,1,1,,argenprop,Tucuman,False,"(53.5, 70.0]",True
+430000.0,,Balcarce 600,50,1,1,0,argenprop,Tucuman,False,"(42.0, 53.5]",True
+175630500.0,,Avenida Manuel Belgrano 4500,81,1,1,1,argenprop,Tucuman,False,"(70.0, 300.0]",True
+240000.0,20000.0,Bernardino Rivadavia 1200,35,1,1,10,argenprop,Tucuman,False,"(23.999, 42.0]",True
+390000.0,100000.0,"Gral M Soler 3500, Piso 1",37,,1,40,argenprop,Caba,False,"(23.999, 42.0]",False
+590000.0,105000.0,Doctor Tomás Manuel De Anchorena 1300,36,,1,0,argenprop,Caba,False,"(23.999, 42.0]",False
+500000.0,105000.0,"JUNCAL 1100, Piso 4",35,1,1,60,argenprop,Caba,False,"(23.999, 42.0]",True
+550000.0,,"*RESERVADO * 2000, Piso 3",39,1,1,40,argenprop,Caba,False,"(23.999, 42.0]",True
+1200000.0,263000.0,"Avenida Coronel Díaz 1800, Piso 1",90,3,2,,argenprop,Caba,False,"(70.0, 300.0]",False
+630000.0,120000.0,"Laprida 1300, Piso 8",56,1,1,60,argenprop,Caba,False,"(53.5, 70.0]",True
+900000.0,170000.0,"Julian Alvarez 2000, Piso 6",52,1,1,45,argenprop,Caba,False,"(42.0, 53.5]",True
+800000.0,168000.0,"Chenaut al 1800, entre Arce y Baez",50,1,1,20,argenprop,Caba,False,"(42.0, 53.5]",True
+670000.0,130000.0,Avenida Luis María Campos 300,37,1,1,,argenprop,Caba,False,"(23.999, 42.0]",False
+550000.0,65000.0,"Guayaquil 100, Piso 5",40,1,1,50,argenprop,Caba,False,"(23.999, 42.0]",True
+400000.0,110000.0,Arenales 2800,47,1,1,40,argenprop,Caba,True,"(42.0, 53.5]",False
+750000.0,50000.0,"Loyola 400, Piso 1",48,1,1,60,argenprop,Caba,False,"(42.0, 53.5]",True
+420000.0,81000.0,"Rojas 100, Piso 9",37,1,1,50,argenprop,Caba,False,"(23.999, 42.0]",True
+1007200.0,,French  al 2900,37,1,1,0,argenprop,Caba,False,"(23.999, 42.0]",True
+410000.0,58500.0,"Mendez De Andes 1900, Piso 5",37,,1,8,argenprop,Caba,False,"(23.999, 42.0]",False
+420000.0,110000.0,"Felipe Vallese 1600, Piso 7",30,,1,8,argenprop,Caba,False,"(23.999, 42.0]",False
+700000.0,90000.0,"Ravignani 2000, Piso 6",34,,1,3,argenprop,Caba,False,"(23.999, 42.0]",False
+750000.0,150000.0,Paraguay 1600,36,1,1,,argenprop,Caba,False,"(23.999, 42.0]",False
+800000.0,100000.0,"MIGUELETES 2300, Piso 3",46,1,1,0,argenprop,Caba,False,"(42.0, 53.5]",True
+500000.0,175000.0,"Jose Luis Borges 2200, Piso 2",31,,1,15,argenprop,Caba,False,"(23.999, 42.0]",False
+1196050.0,350000.0,"Paunero 2700, Piso 5",60,2,1,20,argenprop,Caba,False,"(53.5, 70.0]",True
+650000.0,130000.0,"Sánchez De Bustamante 2600, Piso 2",40,1,1,0,argenprop,Caba,False,"(23.999, 42.0]",True
+750000.0,140000.0,"Davila 800, Piso 3",73,2,2,40,argenprop,Caba,False,"(70.0, 300.0]",True
+900000.0,90000.0,"Aranguren 1900, Piso 9",50,,,0,argenprop,Caba,False,"(42.0, 53.5]",False
+480000.0,92000.0,"Agüero 1600, Piso 3",27,,1,0,argenprop,Caba,False,"(23.999, 42.0]",False
+480000.0,60000.0,"Avenida Avellaneda 1300, Piso 6",30,,1,5,argenprop,Caba,False,"(23.999, 42.0]",False
+650000.0,100000.0,Av Pueyrredon  al 2400,31,1,1,30,argenprop,Caba,False,"(23.999, 42.0]",True
+1300000.0,450000.0,"OLAZABAL 2600, Piso 4",62,2,1,25,argenprop,Caba,False,"(53.5, 70.0]",True
+950000.0,140000.0,"Julian Alvarez 1200, Piso 6",47,1,1,0,argenprop,Caba,True,"(42.0, 53.5]",False
+590000.0,120000.0,French 3000,47,1,1,10,argenprop,Caba,True,"(42.0, 53.5]",False
+490000.0,92700.0,"Marcelo T. de Alvear 400, Piso 10",37,,1,40,argenprop,Caba,False,"(23.999, 42.0]",False
+650000.0,118000.0,"Gascon 1500, Piso 7",47,1,1,50,argenprop,Caba,True,"(42.0, 53.5]",False
+600000.0,120000.0,"Juan Maria Gutierrez 3700, Piso 5",40,1,1,30,argenprop,Caba,False,"(23.999, 42.0]",True
+755400.0,100000.0,Aráoz 2400,40,1,1,,argenprop,Caba,False,"(23.999, 42.0]",False
+600000.0,110000.0,"Doblas 1000, Piso 2",47,1,1,50,argenprop,Caba,True,"(42.0, 53.5]",False
+4595350.0,1400000.0,Manuela Sáenz 400,220,4,,20,argenprop,Caba,False,"(70.0, 300.0]",False
+3147500.0,850000.0,Olga Cossettini 1600 - Brisas Puerto Madero,94,3,2,15,argenprop,Caba,False,"(70.0, 300.0]",True
+742810.0,,"Vicente  Lopez 1900, Piso 2",32,,,,argenprop,Caba,False,"(23.999, 42.0]",False
+550000.0,170000.0,"Av santa fe 2000, Piso 1",50,1,1,50,argenprop,Caba,False,"(42.0, 53.5]",True
+520000.0,110000.0,"Avenida Independencia 1300, Piso 6",40,1,1,,argenprop,Caba,False,"(23.999, 42.0]",False
+690000.0,120000.0,Bogotá 100,43,2,1,,argenprop,Caba,False,"(42.0, 53.5]",False
+4910100.0,1350000.0,Santa Maria del Puerto 5 Amb  2 cocheras -  Azucena VIllaflor 300,200,4,,22,argenprop,Caba,False,"(70.0, 300.0]",False
+495000.0,55000.0,"Billinghurst 1300, Piso 6",34,,1,38,argenprop,Caba,False,"(23.999, 42.0]",False
+800000.0,,"Güemes 4400, Piso 5",50,2,1,,argenprop,Caba,False,"(42.0, 53.5]",False
+800000.0,183800.0,Laprida 1200,52,2,1,50,argenprop,Caba,False,"(42.0, 53.5]",True
+490000.0,70000.0,"Gascón 1700, Piso 5",32,,,9,argenprop,Caba,False,"(23.999, 42.0]",False
+790000.0,230000.0,"Torre Arealis - Puerto Norte , Piso 05",50,1,1,,argenprop,Rosario,False,"(42.0, 53.5]",False
+700000.0,51000.0,"Catamarca 1900, Piso 2",74,3,2,,argenprop,Rosario,False,"(70.0, 300.0]",False
+459000.0,50000.0,Santiago 1333,45,1,1,10,argenprop,Rosario,False,"(42.0, 53.5]",True
+428400.0,70000.0,3 de Febrero 385,60,1,1,0,argenprop,Rosario,False,"(53.5, 70.0]",True
+397800.0,60000.0,Ituzaingo 1954,45,1,1,10,argenprop,Rosario,False,"(42.0, 53.5]",True
+382500.0,50000.0,Riobamba  al 183,50,1,1,0,argenprop,Rosario,False,"(42.0, 53.5]",True
+1500000.0,300000.0,"Av. Carballo 100, Piso 8",112,3,2,8,argenprop,Rosario,False,"(70.0, 300.0]",True
+520000.0,200000.0,"Mitre 500, Piso 13",85,2,2,65,argenprop,Rosario,False,"(70.0, 300.0]",True
+880000.0,,La Paz al 200,80,2,2,14,argenprop,Rosario,False,"(70.0, 300.0]",True
+650000.0,220000.0,Cordoba  al 600,43,1,1,10,argenprop,Rosario,False,"(42.0, 53.5]",True
+550000.0,100000.0,España  al 700,56,2,1,30,argenprop,Rosario,True,"(53.5, 70.0]",False
+600000.0,105000.0,Rioja  al 1400,101,3,2,0,argenprop,Rosario,False,"(70.0, 300.0]",True
+580000.0,,ALVEAR 472 - 2 - B,38,1,1,0,argenprop,Rosario,False,"(23.999, 42.0]",True
+300000.0,,San Nicolas 1628,35,,1,0,argenprop,Rosario,False,"(23.999, 42.0]",False
+400000.0,45000.0,Zeballos 1683,35,1,1,2,argenprop,Rosario,False,"(23.999, 42.0]",True
+510000.0,,Montevideo al 900,65,2,1,46,argenprop,Rosario,False,"(53.5, 70.0]",True
+590000.0,135000.0,"BUENOS AIRES 1300, Piso 06",61,2,2,,argenprop,Rosario,False,"(53.5, 70.0]",False
+700000.0,,Italia al 600,70,2,1,55,argenprop,Rosario,False,"(53.5, 70.0]",True
+280000.0,,"Moreno 300, Piso 4",47,1,1,20,argenprop,Rosario,True,"(42.0, 53.5]",False
+380000.0,55000.0,San Juan al 2300,28,1,1,8,argenprop,Rosario,False,"(23.999, 42.0]",True
+380000.0,60000.0,"PARAGUAY 2200, Piso 07",42,1,1,4,argenprop,Rosario,False,"(23.999, 42.0]",True
+290000.0,50000.0,"PARAGUAY 2200, Piso 04",28,,1,4,argenprop,Rosario,False,"(23.999, 42.0]",False
+500000.0,110000.0,"Italia 100, Piso 2",44,1,1,20,argenprop,Rosario,False,"(42.0, 53.5]",True
+1200000.0,105000.0,"DEL VALLE IBERLUCEA 1000, Piso 7",65,2,1,8,argenprop,Rosario,False,"(53.5, 70.0]",True
+490000.0,,Callao 1337 01-01,40,1,1,4,argenprop,Rosario,False,"(23.999, 42.0]",True
+360000.0,60000.0,Brown al 2900,35,,1,0,argenprop,Rosario,False,"(23.999, 42.0]",False
+300000.0,,"San Juan 1500, Piso 7",27,1,1,40,argenprop,Rosario,False,"(23.999, 42.0]",True
+428400.0,50000.0,Moreno 1481,48,1,1,6,argenprop,Rosario,False,"(42.0, 53.5]",True
+580000.0,60000.0,"URQUIZA 1500, Piso 5",60,3,2,30,argenprop,Rosario,False,"(53.5, 70.0]",True
+550000.0,120000.0,Mendoza  al 300,45,2,1,42,argenprop,Rosario,False,"(42.0, 53.5]",True
+320000.0,,San Juan al 1100,29,,1,0,argenprop,Rosario,False,"(23.999, 42.0]",False
+230000.0,30000.0,Entre rios 1800,24,,1,,argenprop,Rosario,False,"(23.999, 42.0]",False
+290000.0,,"Entre Ríos 900, Piso 04",40,1,1,52,argenprop,Rosario,False,"(23.999, 42.0]",True
+320000.0,68000.0,Buenos Aires 633 Alquiler Piso Exclusivo Dpto. Amplio Monoambiente con Balcón,25,,1,5,argenprop,Rosario,False,"(23.999, 42.0]",False
+500000.0,,Mitre 1000,86,2,2,,argenprop,Rosario,True,"(70.0, 300.0]",False
+250000.0,22000.0,Rioja 1632,40,,1,35,argenprop,Rosario,False,"(23.999, 42.0]",False
+210000.0,,"Ricchieri 1300, Piso 05",26,1,1,125,argenprop,Rosario,False,"(23.999, 42.0]",True
+300000.0,,Rodriguez 1315,35,1,1,0,argenprop,Rosario,False,"(23.999, 42.0]",True
+660000.0,49000.0,Balcarce y Brown,45,1,1,2,argenprop,Rosario,False,"(42.0, 53.5]",True
+420000.0,,"Corrientes 800, Piso 04",60,2,1,45,argenprop,Rosario,False,"(53.5, 70.0]",True
+290000.0,90000.0,"ENTRE RIOS 2000, Piso 3",47,1,1,35,argenprop,Rosario,True,"(42.0, 53.5]",False
+350000.0,,"Italia 500, Piso 4",47,1,1,,argenprop,Rosario,True,"(42.0, 53.5]",False
+350000.0,35000.0,Santiago y 3 de Febrero 100,40,,1,,argenprop,Rosario,False,"(23.999, 42.0]",False
+270000.0,27000.0,"RECONQUISTA 1300, Piso 2",47,1,1,,argenprop,Rosario,True,"(42.0, 53.5]",False
+300000.0,30000.0,"RECONQUISTA 1300, Piso 1",50,2,1,5,argenprop,Rosario,False,"(42.0, 53.5]",True
+380000.0,35000.0,Pasco al 500,38,1,1,12,argenprop,Rosario,False,"(23.999, 42.0]",True
+1050000.0,,"Pje Campichuelo 800, Piso 9",210,4,,20,argenprop,Rosario,False,"(70.0, 300.0]",False
+520000.0,,BOULEVARD AVELLANEDA BIS 700,47,1,1,,argenprop,Rosario,True,"(42.0, 53.5]",False
+1800000.0,450000.0,"Wheelwright 1700, Piso 14",200,3,2,,argenprop,Rosario,False,"(70.0, 300.0]",False
+900000.0,91000.0,"Avenida Belgrano 200, Piso 2",30,1,1,0,argenprop,Bariloche,False,"(23.999, 42.0]",True
+900000.0,90000.0,Vicealmirante O'Connor al 300,45,1,1,45,argenprop,Bariloche,False,"(42.0, 53.5]",True
+1259000.0,85950.0,Salta al 400,71,2,2,30,argenprop,Bariloche,False,"(70.0, 300.0]",True
+950000.0,,Av. Bustillo al 4400,56,2,1,25,argenprop,Bariloche,True,"(53.5, 70.0]",False
+1500000.0,,Los Molles 1900,80,2,2,,argenprop,Bariloche,False,"(70.0, 300.0]",False
+1200000.0,120000.0,24 de Junio  al 700,50,1,1,0,argenprop,Bariloche,False,"(42.0, 53.5]",True
+900000.0,108000.0,20 de Junio 700,50,1,1,0,argenprop,Bariloche,False,"(42.0, 53.5]",True
+1100000.0,118500.0,20 de Junio 700,50,1,1,0,argenprop,Bariloche,False,"(42.0, 53.5]",True
+1300000.0,,"Barrio Melipal, San Carlos de Bariloche",50,1,1,0,argenprop,Bariloche,False,"(42.0, 53.5]",True
+750000.0,,ELORDI  al 1600,47,1,1,0,argenprop,Bariloche,True,"(42.0, 53.5]",False
+750000.0,,Combate rio santiago al 3700,30,,1,0,argenprop,Bariloche,False,"(23.999, 42.0]",False
+1200000.0,,Palacios 654,48,1,1,10,argenprop,Bariloche,False,"(42.0, 53.5]",True
+1200000.0,,Gallardo al 600,56,2,1,10,argenprop,Bariloche,True,"(53.5, 70.0]",False
+950000.0,,"Exequiel Bustillo 15400, Piso 2",75,2,2,15,argenprop,Bariloche,False,"(70.0, 300.0]",True
+800000.0,,"Asuncion 1000, Piso P.A",75,2,2,10,argenprop,Bariloche,False,"(70.0, 300.0]",True
+950000.0,80000.0,Quaglia al 400,56,2,1,0,argenprop,Bariloche,True,"(53.5, 70.0]",False
+900000.0,,"20 de Junio 500, Piso 1",50,2,1,,argenprop,Bariloche,False,"(42.0, 53.5]",False
+1200000.0,,Modesta Victoria 4000,80,1,1,9,argenprop,Bariloche,False,"(70.0, 300.0]",True
+747500.0,,"9 de julio 400, Piso 0",45,1,1,2025,argenprop,Bariloche,False,"(42.0, 53.5]",True
+690000.0,,"9 de julio 400, Piso 0",85,1,1,2025,argenprop,Bariloche,False,"(70.0, 300.0]",True
+1000000.0,,De la tempestad 1000,60,1,1,,argenprop,Bariloche,False,"(53.5, 70.0]",False
+500000.0,,Val Sereno 100,30,,1,1,argenprop,Bariloche,False,"(23.999, 42.0]",False
+1007200.0,65000.0,Mitre 100,35,1,1,52,argenprop,Bariloche,False,"(23.999, 42.0]",True
+1500000.0,35000.0,Albarracín 600,74,3,2,35,argenprop,Bariloche,False,"(70.0, 300.0]",True
+1000000.0,,Chubut 100,80,3,2,30,argenprop,Bariloche,False,"(70.0, 300.0]",True
+818350.0,,Ada María Elflein 800,40,,1,0,argenprop,Bariloche,False,"(23.999, 42.0]",False
+1007200.0,,FREY 200,42,1,1,27,argenprop,Bariloche,False,"(23.999, 42.0]",True
+1200000.0,140000.0,Avenida Exequiel Bustillo 7800,54,1,1,11,argenprop,Bariloche,False,"(53.5, 70.0]",True
+700000.0,35000.0,Onelli 500,37,1,1,35,argenprop,Bariloche,False,"(23.999, 42.0]",True
+1007200.0,70000.0,Rolando 100,43,2,1,46,argenprop,Bariloche,False,"(42.0, 53.5]",True
