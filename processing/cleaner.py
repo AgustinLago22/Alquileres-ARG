@@ -80,7 +80,7 @@ def limpiar_dataset(df):
     #Eliminaremos duplicados y los que no tengan precio
     df.drop_duplicates(inplace=True)
     df.dropna(subset=['precio'], inplace=True)
-    df['valor_total'] = df['precio'] + df['expensas'].fillna(0) #Agregamos el fillna sin implace para no reemplazar los nulls por ceros para consistencia del dataframe
+    df['valor_total'] = df['precio'] + df['expensas'].fillna(0,inplace=True) #Agregamos el fillna implace para  reemplazar los nulls por ceros para consistencia del dataframe
 
     #Forzar el casteo de float -> Int
     df['superficie'] = df['superficie'].astype("Int64")
@@ -89,7 +89,7 @@ def limpiar_dataset(df):
     df['banos'] = df['banos'].astype("Int64")
     df['antiguedad'] = df['antiguedad'].astype("Int64")
     df['ambientes'] = df['ambientes'].astype("Int64")
-    df['ambientes'] = df['ambientes'].astype("Int64")
+    df['valor_total'] = df['valor_total'].astype("Int64")
 
 
     return df
@@ -277,6 +277,8 @@ def cleaner():
 
     #Elimina filas sin Banos ni Dormitorios, Elimina columna "ambientes" ya que al momento es redudante por falta de datos
     df= eliminar_inconsistentes(df)
+
+    print(df)
 
     #validar_datos(df)
 
