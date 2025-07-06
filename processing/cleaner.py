@@ -3,7 +3,7 @@ import glob
 import re
 from datetime import datetime
 import pandas as pd
-
+import numpy as np
 
 def obtener_ultimo_csv():
     carpeta = 'datasets/raw/'
@@ -17,11 +17,12 @@ def obtener_ultimo_csv():
     )
     return archivos_ordenados[0]
 
-def limpiar_monto(Valor):
-    if pd.isna(Valor):
-        return None
-    return float(Valor)
-
+def limpiar_monto(valor):
+    if pd.isna(valor):
+        return np.nan
+    if isinstance(valor, str) and valor.lower() == "no disponible":
+        return np.nan
+    return float(valor)
 
 def extraer_numero(texto):
     if pd.isna(texto):
@@ -76,6 +77,10 @@ def limpiar_dataset(df):
         if columna in df.columns:
             df[columna] = df[columna].apply(funcion)
 
+    #Eliminaremos duplicados y los que no tengan precio
+    df.drop_duplicates(inplace=True)
+    df.dropna(subset=['precio'], inplace=True)
+    df['valor_total'] = df['precio'] + df['expensas'].fillna(0) #Agregamos el fillna sin implace para no reemplazar los nulls por ceros para consistencia del dataframe
 
     #Forzar el casteo de float -> Int
     df['superficie'] = df['superficie'].astype("Int64")
@@ -84,11 +89,9 @@ def limpiar_dataset(df):
     df['banos'] = df['banos'].astype("Int64")
     df['antiguedad'] = df['antiguedad'].astype("Int64")
     df['ambientes'] = df['ambientes'].astype("Int64")
+    df['ambientes'] = df['ambientes'].astype("Int64")
 
 
-    #Eliminaremos duplicados y los que no tengan precio
-    df.drop_duplicates(inplace=True)
-    df.dropna(subset=['precio'], inplace=True)
     return df
 
 
@@ -201,16 +204,15 @@ def llenar_banos(df,stats):
     return df
 
 def eliminar_inconsistentes(df):
-    #Vamos a eliminar registros que no tengan superficie ni dormitorio, esto se va a ejecutar despues de los datos imputados
-    cond= df['superficie'].isna() & df['dormitorios'].isna()
+     # Vamos a eliminar registros que no tengan superficie
+    cond_superficie = df['superficie'].isna()
     
-    df = df[~cond].copy() # ~ es operador logico de not
-    
+    # También eliminamos precios mayores a 5 millones por temas de venta en seccion de alquileres.
+    cond_precio = df['precio'] > 10_000_000
 
-    #Dropear columna 'ambientes' por falta de datos 
-    #441 valores nulos -> mejor dropear
-    if 'ambientes' in df.columns:
-        df.drop(columns=['ambientes'], inplace=True)
+    # Combinamos ambas condiciones con OR y eliminamos esos registros
+    cond = cond_superficie | cond_precio
+    df = df[~cond].copy()  # ~ es operador lógico de NOT
 
     return df
 
