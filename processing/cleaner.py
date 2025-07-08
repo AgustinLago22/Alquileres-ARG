@@ -80,7 +80,8 @@ def limpiar_dataset(df):
     #Eliminaremos duplicados y los que no tengan precio
     df.drop_duplicates(inplace=True)
     df.dropna(subset=['precio'], inplace=True)
-    df['valor_total'] = df['precio'] + df['expensas'].fillna(0,inplace=True) #Agregamos el fillna implace para  reemplazar los nulls por ceros para consistencia del dataframe
+    df['expensas'] = df['expensas'].fillna(0)#Los nulos pasan a 0 
+    df['valor_total'] = df['precio'] + df['expensas'] 
 
     #Forzar el casteo de float -> Int
     df['superficie'] = df['superficie'].astype("Int64")
@@ -90,7 +91,6 @@ def limpiar_dataset(df):
     df['antiguedad'] = df['antiguedad'].astype("Int64")
     df['ambientes'] = df['ambientes'].astype("Int64")
     df['valor_total'] = df['valor_total'].astype("Int64")
-
 
     return df
 
@@ -150,6 +150,8 @@ def llenar_superficie(df,stats_df):
         df.loc[cond,'superficie'] =valor
         df.loc [cond,'superficie_imputada'] = True
 
+    df['precio_m2'] = (df['precio'] / df['superficie']).round(2)
+    df['precio_m2'] = df['precio_m2'].astype("Float64")
     return df
 
 def deter_rangos_superficie(df):
