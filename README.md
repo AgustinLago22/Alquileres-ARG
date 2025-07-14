@@ -24,7 +24,7 @@
 
 ---
 
-## 🧠 Flujo del proyecto
+##  Flujo del proyecto
 
 ```
 [SCRAPER] --> [datasets/raw/] --> [CLEANER] --> [datasets/clean/] --> [Power BI]
@@ -52,7 +52,7 @@ Contiene los datos preparados para análisis en Power BI.
 
 ---
 
-## 🧠 Lógica de imputación y validaciones
+##  Lógica de imputación y validaciones
 
 ### Imputación de superficie
 - Se usa la **media** por combinación `(dormitorios, baños)` para imputar valores faltantes.
@@ -76,7 +76,7 @@ Contiene los datos preparados para análisis en Power BI.
 
 ---
 
-## 🧼 Validaciones y limpieza final
+## Validaciones y limpieza final
 Se eliminan registros que:
 - No tienen superficie ni dormitorios.
 - Tienen superficie menor a 20 m² (parámetro configurable).
@@ -151,7 +151,7 @@ Además, en el país no existe una base centralizada ni estandarizada de informa
 - Permitir comparar entre ciudades o capitales provinciales mediante un dashboard interactivo.
 - Añadir un módulo histórico para analizar la **evolución del mercado de alquileres** en el tiempo.
 
-Este proyecto busca no solo limpiar y analizar datos, sino también ofrecer herramientas que ayuden a tomar decisiones informadas en el mercado de alquiler argentino.
+-Este proyecto busca no solo limpiar y analizar datos, sino también ofrecer herramientas que ayuden a tomar decisiones informadas en el mercado de alquiler argentino.
 ---
 
 ##  Autor
