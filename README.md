@@ -138,10 +138,23 @@ Si el precio está expresado en dólares (USD), se convierte a pesos argentinos 
    ```
 
 ---
+## 📌 Consideraciones y Futuras Mejoras
 
+Durante el desarrollo del proyecto surgieron múltiples desafíos vinculados a la calidad de los datos inmobiliarios en Argentina. Muchos registros carecen de información crítica como superficie, cantidad de baños o expensas, y otros incluyen valores evidentemente erróneos (por ejemplo, propiedades de 3 dormitorios en menos de 50 m²).
+
+Además, en el país no existe una base centralizada ni estandarizada de información inmobiliaria, lo que complica la obtención y análisis de datos confiables. Este proyecto incorpora técnicas de imputación y validación para mejorar la calidad general del dataset, pero aún así, refleja una problemática real: la inconsistencia en los registros provistos por los usuarios o las inmobiliarias.
+
+### 📊 Futuras mejoras
+
+- Incorporar datos salariales promedio por provincia o ciudad (a través de fuentes como la API de RIPTE o EPH), para construir un **indicador de asequibilidad** que cruce precios de alquiler con el poder adquisitivo local. (No utilizo RIPTE al momento de hacer esto, porque siento que no es detallado para la situacion Argentina Actual)
+- Agregar una capa de análisis sobre **outliers y registros irregulares** (como propiedades mal distribuidas o mal tipificadas).
+- Permitir comparar entre ciudades o capitales provinciales mediante un dashboard interactivo.
+- Añadir un módulo histórico para analizar la **evolución del mercado de alquileres** en el tiempo.
+
+Este proyecto busca no solo limpiar y analizar datos, sino también ofrecer herramientas que ayuden a tomar decisiones informadas en el mercado de alquiler argentino.
 ---
 
-## ✨ Autor
+##  Autor
 
 **Osvaldo Agustín Lago**  
 Licenciatura en Sistemas de Información  
